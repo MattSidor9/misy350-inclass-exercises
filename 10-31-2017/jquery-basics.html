@@ -6,17 +6,32 @@
   </head>
   <body>
     <a href="https://www.facebook.com/"> website 1</a>
-      <a id="google" href="https://www.facebook.com/"> website 2</a>
-        <a class = "my-link" href="https://www.facebook.com/"> website 3</a>
-          <a class = "my-link" href="https://www.facebook.com/"> website 4</a>
-  <script type="text/javascript">
-    document.getElementById('google').innerHTML = "Google";
-    let links = document.getElementsByClassName('my-link');
-    links[0].innerHTML = "Twitter";
-    links[0].href = "https://twitter.com";
-    links[1].innerHTML = "LinkedIn";
-    links[1].href = "https://www.linkedin.com";
-    links[1].style.color = "red"
-  </script>
+    <a id="google" href="https://www.facebook.com/"> website 2</a>
+    <a class = "my-link" href="https://www.facebook.com/"> website 3</a>
+    <a class = "my-link" href="https://www.facebook.com/"> website 4</a>
+
+
+<h1>DOM is cool</h1>
+<button id = "heading-button" type="button"> change to red </button>
+<button id = "toogle-button" type="button"> toggle links </button>
+
+<div id = "main-text">
+
+<h1>HTML and CSS</h1>
+ <button class="project-buttons" type="button">Recent Projects</button>
+ <ul class="projects">
+   <li>Html for Newark</li>
+   <li>CSS for MISY350</li>
+ </ul>
+ <h1>JavaScript</h1>
+  <button class="project-buttons" type="button">Recent Projects</button>
+  <ul class ="projects">
+    <li>JS for NYC</li>
+    <li>Jquery for MISY350</li>
+  </ul>
+</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="jquery-basics.js"></script>
+
   </body>
 </html>
